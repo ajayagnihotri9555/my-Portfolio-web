@@ -1,0 +1,152 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('https://i.pinimg.com/originals/2c/55/f9/2c55f9c9326e9232526557b63cd59638.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+.header {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #2a9df4;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #2a9df4;
+}
+
+.about, .skills, .projects, .contact {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.skills ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li, .projects ul li {
+    padding: 15px;
+    background: rgba(240, 240, 240, 0.9);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.skills ul li i, .projects ul li i {
+    margin-right: 10px;
+    color: #2a9df4;
+}
+
+.projects ul li strong {
+    color: #2a9df4;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact p i {
+    margin-right: 10px;
+    color: #2a9df4;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #2a9df4;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Footer Styles */
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
